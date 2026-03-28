@@ -1,0 +1,24 @@
+Aufgabe: Polymorphie
+
+Thema:
+Nutze eine gemeinsame Oberklasse, um unterschiedliche Tiere einheitlich zu behandeln.
+
+Anforderungen:
+1. Erstelle eine Oberklasse Tier mit der Methode geraeuschMachen().
+2. Erstelle folgende Unterklassen:
+   - Hund
+   - Katze
+   - Kuh
+3. Jede Unterklasse soll geraeuschMachen() unterschiedlich ueberschreiben.
+
+Arbeitsauftrag:
+1. Erstelle in der main-Methode ein Array oder eine Liste vom Typ Tier.
+2. Speichere darin Objekte von Hund, Katze und Kuh.
+3. Durchlaufe die Liste mit einer Schleife.
+4. Rufe fuer jedes Objekt geraeuschMachen() auf.
+
+Ziel:
+Beobachte, dass trotz des Typs Tier jeweils die passende Methode der Unterklasse ausgefuehrt wird.
+
+Zusatz:
+Fuege eine Methode bewegen() hinzu und entscheide, ob sie in allen Unterklassen gleich oder unterschiedlich sein soll.

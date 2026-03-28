@@ -1,0 +1,31 @@
+Aufgabe: Kombination aus Vererbung, Interfaces und Polymorphie
+
+Thema:
+Erstelle ein kleines System fuer Mitarbeiter in einem Unternehmen.
+
+Anforderungen:
+1. Erstelle eine Oberklasse Mitarbeiter.
+2. Mitarbeiter soll folgende Attribute besitzen:
+   - name
+   - id
+3. Mitarbeiter soll eine Methode arbeite() besitzen.
+4. Erstelle zwei Unterklassen:
+   - Entwickler
+   - Designer
+5. Ueberschreibe arbeite() in beiden Unterklassen.
+6. Erstelle ein Interface Praesentierbar mit der Methode praesentieren().
+7. Mindestens eine der Unterklassen soll das Interface implementieren.
+
+Arbeitsauftrag:
+1. Lege mehrere Mitarbeiterobjekte an.
+2. Speichere sie in einer Liste vom Typ Mitarbeiter.
+3. Rufe fuer alle Objekte arbeite() auf.
+4. Pruefe bei passenden Objekten, ob praesentieren() aufgerufen werden kann.
+
+Fragen zum Nachdenken:
+1. Wo erkennst du Vererbung?
+2. Wo erkennst du Polymorphie?
+3. Warum ist das Interface nicht automatisch fuer alle Mitarbeiter sinnvoll?
+
+Zusatz:
+Ergaenze eine weitere Rolle, zum Beispiel Projektleiter.

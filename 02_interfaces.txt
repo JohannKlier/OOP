@@ -1,0 +1,22 @@
+Aufgabe: Interfaces
+
+Thema:
+Modelliere verschiedene Geraete, die sich einschalten lassen.
+
+Anforderungen:
+1. Erstelle ein Interface Einschaltbar.
+2. Das Interface soll eine Methode einschalten() enthalten.
+3. Erstelle folgende Klassen:
+   - Lampe
+   - Computer
+   - Fernseher
+4. Alle drei Klassen sollen das Interface Einschaltbar implementieren.
+5. Jede Klasse soll eine eigene Ausgabe in der Methode einschalten() haben.
+
+Arbeitsauftrag:
+1. Erzeuge in der main-Methode von jeder Klasse ein Objekt.
+2. Rufe jeweils einschalten() auf.
+3. Vergleiche: Warum ist hier ein Interface sinnvoller als eine gemeinsame Oberklasse?
+
+Zusatz:
+Erstelle ein zweites Interface Ausschaltbar mit der Methode ausschalten() und implementiere es ebenfalls.

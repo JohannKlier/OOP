@@ -1,0 +1,25 @@
+Aufgabe: Vererbung
+
+Thema:
+Erstelle eine kleine Klassenhierarchie fuer Fahrzeuge.
+
+Anforderungen:
+1. Erstelle eine Oberklasse Fahrzeug.
+2. Fahrzeug soll folgende Attribute besitzen:
+   - marke
+   - baujahr
+3. Fahrzeug soll eine Methode info() besitzen, die die Daten ausgibt.
+4. Erstelle zwei Unterklassen:
+   - Auto
+   - Fahrrad
+5. Auto soll zusaetzlich das Attribut anzahlTueren haben.
+6. Fahrrad soll zusaetzlich das Attribut hatKlingel haben.
+7. Ueberschreibe die Methode info() in beiden Unterklassen sinnvoll.
+
+Arbeitsauftrag:
+1. Lege in der main-Methode mindestens ein Auto und ein Fahrrad an.
+2. Gib fuer beide Objekte die Informationen aus.
+3. Ueberlege: Welche Eigenschaften gehoeren in die Oberklasse und welche nur in die Unterklasse?
+
+Zusatz:
+Erweitere die Hierarchie um eine weitere Unterklasse, zum Beispiel Motorrad.
